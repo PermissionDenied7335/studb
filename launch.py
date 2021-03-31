@@ -199,7 +199,7 @@ class main_window(QMainWindow, Ui_MainWindow):
     def save_file(self):
         if self.current_file is not None: 
             if self.current_path == "":
-                self.current_path = QFileDialog.getSaveFileName(self, None, None, "*.sdb")
+                self.current_path = QFileDialog.getSaveFileName(self, None, None, "*.sdb")[0]
             self.current_file.save(self.current_path)
     
     def update_workspace(self):
