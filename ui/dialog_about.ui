@@ -27,6 +27,9 @@
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt;&quot;&gt;学生信息管理系统&lt;/span&gt;&lt;/p&gt;&lt;p&gt;版本：暂无版本号&lt;/p&gt;&lt;p&gt;开源许可证：&lt;a href=&quot;http://www.gnu.org/licenses/old-licenses/gpl-2.0.html&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;GPLv2&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;本程序旨在提供一种可扩展而统一的办公体验。但是，&lt;/p&gt;&lt;p&gt;正如你们所见，现在的它还十分粗糙，并不能满足需求。&lt;/p&gt;&lt;p&gt;所以，您可以帮助我继续开发。或者，您也可以直接对&lt;/p&gt;&lt;p&gt;作者进行捐赠，我将不胜感激。&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;电子邮件地址：grade6_wty@163.com&lt;/p&gt;&lt;p&gt;项目主页：&lt;a href=&quot;https://github.com/wutianyu666/studb&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;https://github.com/wutianyu666/studb&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;门罗币钱包地址：45Ao3gRj4pZaUTYa4AucXtGMH6gCzEznDVM1ZcTwNfyifYYrBp6xDo6Evp1fS1d13sJZgpZuhSLCDMT2EE4Fjtji2hrCtMh&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
     </widget>
    </item>
   </layout>

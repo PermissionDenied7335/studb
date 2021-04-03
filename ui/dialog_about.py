@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'D:\studb\ui\dialog_about.ui'
+# Form implementation generated from reading ui file 'C:\Users\grade\Desktop\studb\ui\dialog_about.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.2
 #
@@ -22,6 +22,7 @@ class Ui_Dialog_about(object):
         self.verticalLayout = QtWidgets.QVBoxLayout(Dialog_about)
         self.verticalLayout.setObjectName("verticalLayout")
         self.label = QtWidgets.QLabel(Dialog_about)
+        self.label.setOpenExternalLinks(True)
         self.label.setObjectName("label")
         self.verticalLayout.addWidget(self.label)
 

@@ -19,8 +19,8 @@
    <string>学生信息管理系统</string>
   </property>
   <property name="windowIcon">
-   <iconset>
-    <normaloff>../resources/pic/icon.png</normaloff>../resources/pic/icon.png</iconset>
+   <iconset resource="res.qrc">
+    <normaloff>:/pic/icon.png</normaloff>:/pic/icon.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -302,6 +302,8 @@
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
  <connections/>
 </ui>

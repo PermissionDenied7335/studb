@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'D:\studb\ui\main.ui'
+# Form implementation generated from reading ui file 'main.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.2
 #
@@ -19,7 +19,7 @@ class Ui_MainWindow(object):
         font.setFamily("Microsoft YaHei UI")
         MainWindow.setFont(font)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("D:\\studb\\ui\\../resources/pic/icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon.addPixmap(QtGui.QPixmap(":/pic/icon.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         MainWindow.setWindowIcon(icon)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -191,3 +191,4 @@ class Ui_MainWindow(object):
         self.action_del_row.setText(_translate("MainWindow", "删除行"))
         self.action_add_column.setText(_translate("MainWindow", "添加列"))
         self.action_del_column.setText(_translate("MainWindow", "删除列"))
+import res_rc
